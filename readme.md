@@ -1,7 +1,7 @@
 ## Bootcamp with Java code
 
-- [ ] Programming Logic / Lógica de Programação  
-- [ ] Git and Github / Git e Github
+- [x] Programming Logic / Lógica de Programação  
+- [x] Git and Github / Git e Github
 - [ ] Fundamentals of systems architecture / Fundamentos de Arquitetura de Sistemas
 - [ ] Basic Java / Java Básico
 - [ ] Programming with Java / Programando com Java
