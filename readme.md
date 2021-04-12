@@ -1,7 +1,7 @@
 ## Bootcamp with Java code
 
-- [ ] Programming Logic / Lógica de Programação  
-- [ ] Git and Github / Git e Github
+- [x] Programming Logic / Lógica de Programação  
+- [x] Git and Github / Git e Github
 - [ ] Fundamentals of systems architecture / Fundamentos de Arquitetura de Sistemas
 - [ ] Basic Java / Java Básico
 - [ ] Programming with Java / Programando com Java
@@ -26,10 +26,5 @@
 - [ ] Java and Angular / Java e Angular
 - [ ] Learn how to Apply Tests with Java / Aprenda a Aplicar Testes com Java
 - [ ] Unit Tests to Validate a REST API / Testes Unitários para Validar uma API REST
-
-
-
-
-
 
 
