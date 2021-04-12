@@ -14,3 +14,22 @@
 - [ ] Advanced Systems Architecture / Arquitetura de Sistemas Avançados
 - [ ] Introduction to Search and Replacement in Java / Introdução a Busca e Substituição em Java
 - [ ] Concepts and best practices with PostgreSQL database / Conceitos e melhores práticas com Banco de Dados PostgreSQL
+- [ ] Introduction to Container Orchestration with Docker / Introdução a Orquestração de Contêineres com Docker
+- [ ] Working with Databases Using JDBC and JPA / Trabalhando com Banco de Dados Utilizando JDBC e JPA
+- [ ] People Management in REST API with Spring Boot / Gerenciamento de Pessoas em API REST com Spring Boot
+- [ ] SCRUM
+- [ ] Problems solution with Java / Solução de problemas com Java
+- [ ] Building a REST API / Construindo uma API REST
+- [ ] Solving Algorithms with Java / Resolvendo Algoritmos com Java
+- [ ] Web Application with Spring Web MVC / Aplicação Web com Spring Web MVC
+- [ ] Introduction to JSF for Web Application / Introdução ao JSF para Aplicação Web
+- [ ] Java and Angular / Java e Angular
+- [ ] Learn how to Apply Tests with Java / Aprenda a Aplicar Testes com Java
+- [ ] Unit Tests to Validate a REST API / Testes Unitários para Validar uma API REST
+
+
+
+
+
+
+
