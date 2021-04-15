@@ -2,7 +2,7 @@
 
 - [x] Programming Logic / Lógica de Programação  
 - [x] Git and Github / Git e Github
-- [ ] Fundamentals of systems architecture / Fundamentos de Arquitetura de Sistemas
+- [x] Fundamentals of systems architecture / Fundamentos de Arquitetura de Sistemas
 - [ ] Basic Java / Java Básico
 - [ ] Programming with Java / Programando com Java
 - [ ] Collection e Streams
