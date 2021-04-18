@@ -6,9 +6,9 @@ public class DefaultValues {
         final Default d = new Default();
         System.out.println(d.getI());
         System.out.println(d.isActive());
-        //apenas do java 10 para frente
-//        var txt = "texto ";
-//        System.out.println(txt);
+//        apenas do java 10 para frente
+        var txt = "Aula de Java";
+        System.out.println(txt.split(" "));
 
 
     }

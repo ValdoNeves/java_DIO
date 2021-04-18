@@ -1,7 +1,7 @@
 package com.orgfree.valdoneves.tipos.primitivos;
 
 public class Primitivos {
-    public static void main(String[] args) {
+    public static <String> void main(String[] args) {
         //inteiros
 
         //byte nullByte = null; //não aceitam null
