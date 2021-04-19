@@ -1,7 +1,30 @@
 package com.orgfree.valdoneves.orientacaoAObjeto;
 
 public class Carro {
+
     private int qtdPessoas;
+    private String marca;
+    private String modelo;
+    private int ano;
+    private String variante;
+
+    public Carro(String marca, String modelo, int ano){
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
 
     public int getQtdPessoas() {
         return qtdPessoas;

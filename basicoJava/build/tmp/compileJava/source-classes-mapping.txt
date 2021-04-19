@@ -5,11 +5,11 @@ com/orgfree/valdoneves/classes/Programa.java
  com.orgfree.valdoneves.classes.Programa
 com/orgfree/valdoneves/strings/Strings.java
  com.orgfree.valdoneves.strings.Strings
-com/orgfree/valdoneves/tipos/primitivos/Primitivos.java
- com.orgfree.valdoneves.tipos.primitivos.Primitivos
-com/orgfree/valdoneves/tipos/wrappers/Wrappers.java
- com.orgfree.valdoneves.tipos.wrappers.Wrappers
 com/orgfree/valdoneves/orientacaoAObjeto/testeCarros.java
  com.orgfree.valdoneves.orientacaoAObjeto.testeCarros
 com/orgfree/valdoneves/orientacaoAObjeto/Carro.java
  com.orgfree.valdoneves.orientacaoAObjeto.Carro
+com/orgfree/valdoneves/tipos/primitivos/Primitivos.java
+ com.orgfree.valdoneves.tipos.primitivos.Primitivos
+com/orgfree/valdoneves/tipos/wrappers/Wrappers.java
+ com.orgfree.valdoneves.tipos.wrappers.Wrappers
