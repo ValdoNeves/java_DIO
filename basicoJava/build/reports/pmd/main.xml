@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.33.0" timestamp="2021-04-19T00:01:31.805">
+<file name="C:\Users\valdoneves\Documents\DIO_Java\basicoJava\src\main\java\com\orgfree\valdoneves\classes\Programa.java">
+<violation beginline="3" endline="8" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.orgfree.valdoneves.classes" class="Programa" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="5" endline="5" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.classes" class="Programa" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\valdoneves\Documents\DIO_Java\basicoJava\src\main\java\com\orgfree\valdoneves\strings\Strings.java">
+<violation beginline="3" endline="14" begincolumn="22" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.orgfree.valdoneves.strings" class="Strings" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="5" endline="5" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.strings" class="Strings" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="7" endline="13" begincolumn="16" endcolumn="33" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.strings" class="Strings" method="main" variable="nome" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'nome' (lines '7'-'13').
+</violation>
+<violation beginline="7" endline="7" begincolumn="9" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.strings" class="Strings" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'nome' could be declared final
+</violation>
+<violation beginline="8" endline="13" begincolumn="13" endcolumn="31" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.strings" class="Strings" method="main" variable="sobreNome" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'sobreNome' (lines '8'-'13').
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.strings" class="Strings" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sobreNome' could be declared final
+</violation>
+</file>
+<file name="C:\Users\valdoneves\Documents\DIO_Java\basicoJava\src\main\java\com\orgfree\valdoneves\tipos\primitivos\DefaultValues.java">
+<violation beginline="3" endline="15" begincolumn="28" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.orgfree.valdoneves.tipos.primitivos" class="DefaultValues" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="4" endline="4" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="DefaultValues" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="6" endline="6" begincolumn="23" endcolumn="23" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="DefaultValues" method="main" variable="d" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like d
+</violation>
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="DefaultValues" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'txt' could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="28" endcolumn="41" rule="LawOfDemeter" ruleset="Design" package="com.orgfree.valdoneves.tipos.primitivos" class="DefaultValues" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="17" endline="24" begincolumn="1" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Default" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="18" endline="18" begincolumn="9" endcolumn="9" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Default" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="18" endline="18" begincolumn="9" endcolumn="9" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Default" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="18" endline="18" begincolumn="9" endcolumn="9" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Default" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="18" endline="18" begincolumn="5" endcolumn="10" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Default" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the i field if you want a default access modifier
+</violation>
+<violation beginline="18" endline="18" begincolumn="5" endcolumn="10" rule="DefaultPackage" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Default" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="19" endline="19" begincolumn="13" endcolumn="18" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Default" variable="active" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="19" endline="19" begincolumn="13" endcolumn="18" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Default" variable="active" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="19" endline="19" begincolumn="5" endcolumn="19" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Default" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the active field if you want a default access modifier
+</violation>
+<violation beginline="19" endline="19" begincolumn="5" endcolumn="19" rule="DefaultPackage" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Default" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+</file>
+<file name="C:\Users\valdoneves\Documents\DIO_Java\basicoJava\src\main\java\com\orgfree\valdoneves\tipos\primitivos\Primitivos.java">
+<violation beginline="3" endline="52" begincolumn="25" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="4" endline="4" begincolumn="38" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="14" endcolumn="14" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b
+</violation>
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="14" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'b' could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="14" endcolumn="15" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="b1" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b1
+</violation>
+<violation beginline="11" endline="51" begincolumn="14" endcolumn="21" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="b1" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'b1' (lines '11'-'51').
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="21" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'b1' could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="14" endcolumn="15" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="b2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b2
+</violation>
+<violation beginline="12" endline="51" begincolumn="14" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="b2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'b2' (lines '12'-'51').
+</violation>
+<violation beginline="12" endline="12" begincolumn="9" endcolumn="22" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'b2' could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="14" endcolumn="14" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="c" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like c
+</violation>
+<violation beginline="16" endline="16" begincolumn="9" endcolumn="14" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'c' could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="14" endcolumn="15" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="c1" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like c1
+</violation>
+<violation beginline="17" endline="51" begincolumn="14" endcolumn="21" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="c1" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'c1' (lines '17'-'51').
+</violation>
+<violation beginline="17" endline="17" begincolumn="9" endcolumn="21" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'c1' could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="14" endcolumn="15" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="c2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like c2
+</violation>
+<violation beginline="18" endline="51" begincolumn="14" endcolumn="20" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="c2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'c2' (lines '18'-'51').
+</violation>
+<violation beginline="18" endline="18" begincolumn="9" endcolumn="20" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'c2' could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="15" endcolumn="15" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="s" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s
+</violation>
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="15" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's' could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="15" endcolumn="16" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="s1" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s1
+</violation>
+<violation beginline="24" endline="51" begincolumn="15" endcolumn="24" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="s1" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 's1' (lines '24'-'51').
+</violation>
+<violation beginline="24" endline="24" begincolumn="9" endcolumn="24" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's1' could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="20" endcolumn="24" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 32767 should separate every third digit with an underscore
+</violation>
+<violation beginline="25" endline="25" begincolumn="15" endcolumn="16" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="s2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s2
+</violation>
+<violation beginline="25" endline="51" begincolumn="15" endcolumn="24" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="s2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 's2' (lines '25'-'51').
+</violation>
+<violation beginline="25" endline="25" begincolumn="9" endcolumn="24" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's2' could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="20" endcolumn="24" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 32768 should separate every third digit with an underscore
+</violation>
+<violation beginline="28" endline="28" begincolumn="13" endcolumn="13" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="28" endline="51" begincolumn="13" endcolumn="26" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'i' (lines '28'-'51').
+</violation>
+<violation beginline="28" endline="28" begincolumn="9" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'i' could be declared final
+</violation>
+<violation beginline="28" endline="28" begincolumn="17" endcolumn="26" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 2147483647 should separate every third digit with an underscore
+</violation>
+<violation beginline="29" endline="29" begincolumn="13" endcolumn="14" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="i2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like i2
+</violation>
+<violation beginline="29" endline="51" begincolumn="13" endcolumn="28" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="i2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'i2' (lines '29'-'51').
+</violation>
+<violation beginline="29" endline="29" begincolumn="9" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'i2' could be declared final
+</violation>
+<violation beginline="29" endline="29" begincolumn="19" endcolumn="28" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 2147483648 should separate every third digit with an underscore
+</violation>
+<violation beginline="32" endline="32" begincolumn="14" endcolumn="14" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="l" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like l
+</violation>
+<violation beginline="32" endline="51" begincolumn="14" endcolumn="37" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="l" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'l' (lines '32'-'51').
+</violation>
+<violation beginline="32" endline="32" begincolumn="9" endcolumn="37" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'l' could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="18" endcolumn="37" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 9223372036854775807L should separate every third digit with an underscore
+</violation>
+<violation beginline="33" endline="33" begincolumn="14" endcolumn="15" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="l2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like l2
+</violation>
+<violation beginline="33" endline="51" begincolumn="14" endcolumn="39" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="l2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'l2' (lines '33'-'51').
+</violation>
+<violation beginline="33" endline="33" begincolumn="9" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'l2' could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="20" endcolumn="39" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 9223372036854775808L should separate every third digit with an underscore
+</violation>
+<violation beginline="37" endline="37" begincolumn="15" endcolumn="15" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="f" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like f
+</violation>
+<violation beginline="37" endline="51" begincolumn="15" endcolumn="21" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="f" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'f' (lines '37'-'51').
+</violation>
+<violation beginline="37" endline="37" begincolumn="9" endcolumn="21" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'f' could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="15" endcolumn="16" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="f2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like f2
+</violation>
+<violation beginline="38" endline="51" begincolumn="15" endcolumn="24" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="f2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'f2' (lines '38'-'51').
+</violation>
+<violation beginline="38" endline="38" begincolumn="9" endcolumn="24" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'f2' could be declared final
+</violation>
+<violation beginline="39" endline="39" begincolumn="15" endcolumn="16" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="f3" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like f3
+</violation>
+<violation beginline="39" endline="51" begincolumn="15" endcolumn="24" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="f3" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'f3' (lines '39'-'51').
+</violation>
+<violation beginline="39" endline="39" begincolumn="9" endcolumn="24" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'f3' could be declared final
+</violation>
+<violation beginline="41" endline="41" begincolumn="16" endcolumn="16" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="d" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like d
+</violation>
+<violation beginline="41" endline="51" begincolumn="16" endcolumn="26" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="d" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'd' (lines '41'-'51').
+</violation>
+<violation beginline="41" endline="41" begincolumn="9" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'd' could be declared final
+</violation>
+<violation beginline="42" endline="42" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="d2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like d2
+</violation>
+<violation beginline="42" endline="51" begincolumn="16" endcolumn="27" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="d2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'd2' (lines '42'-'51').
+</violation>
+<violation beginline="42" endline="42" begincolumn="9" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'd2' could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="17" endcolumn="18" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="bo" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like bo
+</violation>
+<violation beginline="46" endline="51" begincolumn="17" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="bo" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'bo' (lines '46'-'51').
+</violation>
+<violation beginline="46" endline="46" begincolumn="9" endcolumn="25" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'bo' could be declared final
+</violation>
+<violation beginline="47" endline="51" begincolumn="17" endcolumn="27" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="bo2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'bo2' (lines '47'-'51').
+</violation>
+<violation beginline="47" endline="47" begincolumn="9" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'bo2' could be declared final
+</violation>
+<violation beginline="48" endline="51" begincolumn="17" endcolumn="26" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="bo3" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'bo3' (lines '48'-'51').
+</violation>
+<violation beginline="48" endline="48" begincolumn="9" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.primitivos" class="Primitivos" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'bo3' could be declared final
+</violation>
+</file>
+<file name="C:\Users\valdoneves\Documents\DIO_Java\basicoJava\src\main\java\com\orgfree\valdoneves\tipos\wrappers\Wrappers.java">
+<violation beginline="3" endline="11" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.orgfree.valdoneves.tipos.wrappers" class="Wrappers" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="4" endline="4" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.wrappers" class="Wrappers" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="6" endline="6" begincolumn="14" endcolumn="14" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.wrappers" class="Wrappers" method="main" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b
+</violation>
+<violation beginline="6" endline="10" begincolumn="14" endcolumn="20" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.wrappers" class="Wrappers" method="main" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'b' (lines '6'-'10').
+</violation>
+<violation beginline="6" endline="6" begincolumn="9" endcolumn="20" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.wrappers" class="Wrappers" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'b' could be declared final
+</violation>
+<violation beginline="7" endline="7" begincolumn="14" endcolumn="15" rule="ShortVariable" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.wrappers" class="Wrappers" method="main" variable="b2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b2
+</violation>
+<violation beginline="7" endline="10" begincolumn="14" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.wrappers" class="Wrappers" method="main" variable="b2" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'b2' (lines '7'-'10').
+</violation>
+<violation beginline="7" endline="7" begincolumn="9" endcolumn="22" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.wrappers" class="Wrappers" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'b2' could be declared final
+</violation>
+<violation beginline="8" endline="10" begincolumn="14" endcolumn="28" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.orgfree.valdoneves.tipos.wrappers" class="Wrappers" method="main" variable="nullByte" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'nullByte' (lines '8'-'10').
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.orgfree.valdoneves.tipos.wrappers" class="Wrappers" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.33.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'nullByte' could be declared final
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
