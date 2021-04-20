@@ -4,7 +4,7 @@
 - [x] Git and Github / Git e Github
 - [x] Fundamentals of systems architecture / Fundamentos de Arquitetura de Sistemas
 - [x] Basic Java / Java Básico
-- [ ] Programming with Java / Programando com Java
+- [x] Programming with Java / Programando com Java
 - [ ] Collection e Streams
 - [ ] Fundamentals of Arithmetic / Fundamentos Aritméticos 
 - [ ] advancing with Java / Avançando com java
