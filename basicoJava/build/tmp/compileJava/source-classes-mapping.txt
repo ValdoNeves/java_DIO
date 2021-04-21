@@ -21,3 +21,7 @@ com/orgfree/valdoneves/tipos/wrappers/Wrappers.java
  com.orgfree.valdoneves.tipos.wrappers.Wrappers
 com/orgfree/valdoneves/queue/ExemploLinkedList.java
  com.orgfree.valdoneves.queue.ExemploLinkedList
+com/orgfree/valdoneves/set/ExemploHashSet.java
+ com.orgfree.valdoneves.set.ExemploHashSet
+com/orgfree/valdoneves/set/ExemploTreeSet.java
+ com.orgfree.valdoneves.set.ExemploTreeSet
