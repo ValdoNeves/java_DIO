@@ -11,17 +11,19 @@ com/orgfree/valdoneves/strings/Strings.java
  com.orgfree.valdoneves.strings.Strings
 com/orgfree/valdoneves/orientacaoAObjeto/testeCarros.java
  com.orgfree.valdoneves.orientacaoAObjeto.testeCarros
-com/orgfree/valdoneves/dates/Datas.java
- com.orgfree.valdoneves.dates.Datas
-com/orgfree/valdoneves/orientacaoAObjeto/Carro.java
- com.orgfree.valdoneves.orientacaoAObjeto.Carro
 com/orgfree/valdoneves/tipos/primitivos/Primitivos.java
  com.orgfree.valdoneves.tipos.primitivos.Primitivos
 com/orgfree/valdoneves/tipos/wrappers/Wrappers.java
  com.orgfree.valdoneves.tipos.wrappers.Wrappers
-com/orgfree/valdoneves/queue/ExemploLinkedList.java
- com.orgfree.valdoneves.queue.ExemploLinkedList
-com/orgfree/valdoneves/set/ExemploHashSet.java
- com.orgfree.valdoneves.set.ExemploHashSet
 com/orgfree/valdoneves/set/ExemploTreeSet.java
  com.orgfree.valdoneves.set.ExemploTreeSet
+com/orgfree/valdoneves/set/ExemploHashSet.java
+ com.orgfree.valdoneves.set.ExemploHashSet
+com/orgfree/valdoneves/dates/Datas.java
+ com.orgfree.valdoneves.dates.Datas
+com/orgfree/valdoneves/queue/ExemploLinkedList.java
+ com.orgfree.valdoneves.queue.ExemploLinkedList
+com/orgfree/valdoneves/orientacaoAObjeto/Carro.java
+ com.orgfree.valdoneves.orientacaoAObjeto.Carro
+com/orgfree/valdoneves/map/ExemploHashMap.java
+ com.orgfree.valdoneves.map.ExemploHashMap
