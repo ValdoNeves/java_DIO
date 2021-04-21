@@ -22,7 +22,8 @@ public class ExemploList {
         System.out.println(nomes);
 
         //ordenando por ordem alfabetica
-        Collections.sort(nomes);
+        List<String> teste;
+        teste = Collections.sort(nomes);
 
         System.out.println(nomes);
 

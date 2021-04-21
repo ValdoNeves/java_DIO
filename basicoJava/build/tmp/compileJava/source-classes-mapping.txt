@@ -19,3 +19,5 @@ com/orgfree/valdoneves/tipos/primitivos/Primitivos.java
  com.orgfree.valdoneves.tipos.primitivos.Primitivos
 com/orgfree/valdoneves/tipos/wrappers/Wrappers.java
  com.orgfree.valdoneves.tipos.wrappers.Wrappers
+com/orgfree/valdoneves/queue/ExemploLinkedList.java
+ com.orgfree.valdoneves.queue.ExemploLinkedList
