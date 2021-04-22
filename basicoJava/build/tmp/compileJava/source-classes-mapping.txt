@@ -39,3 +39,5 @@ com/orgfree/valdoneves/orientacaoAObjeto/Carro.java
  com.orgfree.valdoneves.orientacaoAObjeto.Carro
 com/orgfree/valdoneves/optional/ExemploOptionalEstados.java
  com.orgfree.valdoneves.optional.ExemploOptionalEstados
+com/orgfree/valdoneves/streamapi/ExemploStreamAPI.java
+ com.orgfree.valdoneves.streamapi.ExemploStreamAPI

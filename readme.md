@@ -5,7 +5,7 @@
 - [x] Fundamentals of systems architecture / Fundamentos de Arquitetura de Sistemas
 - [x] Basic Java / Java Básico
 - [x] Programming with Java / Programando com Java
-- [ ] Collection e Streams
+- [x] Collection e Streams
 - [ ] Fundamentals of Arithmetic / Fundamentos Aritméticos 
 - [ ] advancing with Java / Avançando com java
 - [ ] Linux
