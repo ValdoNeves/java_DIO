@@ -19,17 +19,23 @@ com/orgfree/valdoneves/comparator/ExemploComparators.java
  com.orgfree.valdoneves.comparator.ExemploComparators
 com/orgfree/valdoneves/comparator/Estudantes.java
  com.orgfree.valdoneves.comparator.Estudantes
+com/orgfree/valdoneves/queue/ExemploLinkedList.java
+ com.orgfree.valdoneves.queue.ExemploLinkedList
 com/orgfree/valdoneves/set/ExemploTreeSet.java
  com.orgfree.valdoneves.set.ExemploTreeSet
 com/orgfree/valdoneves/set/ExemploHashSet.java
  com.orgfree.valdoneves.set.ExemploHashSet
+com/orgfree/valdoneves/optional/ExemploOptional.java
+ com.orgfree.valdoneves.optional.ExemploOptional
 com/orgfree/valdoneves/comparator/EstudanteOrdemIdadeReversaComparator.java
  com.orgfree.valdoneves.comparator.EstudanteOrdemIdadeReversaComparator
 com/orgfree/valdoneves/dates/Datas.java
  com.orgfree.valdoneves.dates.Datas
 com/orgfree/valdoneves/map/ExemploHashMap.java
  com.orgfree.valdoneves.map.ExemploHashMap
+com/orgfree/valdoneves/optional/ExemploOptionalPrimitivos.java
+ com.orgfree.valdoneves.optional.ExemploOptionalPrimitivos
 com/orgfree/valdoneves/orientacaoAObjeto/Carro.java
  com.orgfree.valdoneves.orientacaoAObjeto.Carro
-com/orgfree/valdoneves/queue/ExemploLinkedList.java
- com.orgfree.valdoneves.queue.ExemploLinkedList
+com/orgfree/valdoneves/optional/ExemploOptionalEstados.java
+ com.orgfree.valdoneves.optional.ExemploOptionalEstados
