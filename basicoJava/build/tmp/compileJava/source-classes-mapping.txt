@@ -49,3 +49,10 @@ com/orgfree/valdoneves/fatorialRecursivo/ComposicaoDeFuncoes.java
  com.orgfree.valdoneves.fatorialRecursivo.ComposicaoDeFuncoes
 com/orgfree/valdoneves/fatorialRecursivo/Imutabilidade.java
  com.orgfree.valdoneves.fatorialRecursivo.Imutabilidade
+com/orgfree/valdoneves/lambdas/FuncoesLambdas.java
+ com.orgfree.valdoneves.lambdas.FuncaoUm
+ com.orgfree.valdoneves.lambdas.FuncoesLambdas
+com/orgfree/valdoneves/lambdas/FuncoesAnonimas.java
+ com.orgfree.valdoneves.lambdas.Funcao
+ com.orgfree.valdoneves.lambdas.FuncoesAnonimas
+ com.orgfree.valdoneves.lambdas.FuncoesAnonimas$1
