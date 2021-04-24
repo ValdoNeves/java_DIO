@@ -56,3 +56,7 @@ com/orgfree/valdoneves/lambdas/FuncoesAnonimas.java
  com.orgfree.valdoneves.lambdas.Funcao
  com.orgfree.valdoneves.lambdas.FuncoesAnonimas
  com.orgfree.valdoneves.lambdas.FuncoesAnonimas$1
+com/orgfree/valdoneves/fatorialRecursivo/FatorialRecursivo.java
+ com.orgfree.valdoneves.fatorialRecursivo.FatorialRecursivo
+com/orgfree/valdoneves/fatorialRecursivo/FatorialTailCall.java
+ com.orgfree.valdoneves.fatorialRecursivo.FatorialTailCall
