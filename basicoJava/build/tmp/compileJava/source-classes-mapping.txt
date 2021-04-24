@@ -43,3 +43,5 @@ com/orgfree/valdoneves/streamapi/ExemploStreamAPI.java
  com.orgfree.valdoneves.streamapi.ExemploStreamAPI
 com/orgfree/valdoneves/fatorialRecursivo/ParadigmaFuncional.java
  com.orgfree.valdoneves.fatorialRecursivo.ParadigmaFuncional
+com/orgfree/valdoneves/fatorialRecursivo/ComposicaoDeFuncoes.java
+ com.orgfree.valdoneves.fatorialRecursivo.ComposicaoDeFuncoes
