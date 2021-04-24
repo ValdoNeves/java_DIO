@@ -47,3 +47,5 @@ com/orgfree/valdoneves/fatorialRecursivo/FuncoesPuras.java
  com.orgfree.valdoneves.fatorialRecursivo.FuncoesPuras
 com/orgfree/valdoneves/fatorialRecursivo/ComposicaoDeFuncoes.java
  com.orgfree.valdoneves.fatorialRecursivo.ComposicaoDeFuncoes
+com/orgfree/valdoneves/fatorialRecursivo/Imutabilidade.java
+ com.orgfree.valdoneves.fatorialRecursivo.Imutabilidade
