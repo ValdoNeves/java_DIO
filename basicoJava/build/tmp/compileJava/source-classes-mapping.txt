@@ -41,3 +41,5 @@ com/orgfree/valdoneves/optional/ExemploOptionalEstados.java
  com.orgfree.valdoneves.optional.ExemploOptionalEstados
 com/orgfree/valdoneves/streamapi/ExemploStreamAPI.java
  com.orgfree.valdoneves.streamapi.ExemploStreamAPI
+com/orgfree/valdoneves/fatorialRecursivo/ParadigmaFuncional.java
+ com.orgfree.valdoneves.fatorialRecursivo.ParadigmaFuncional

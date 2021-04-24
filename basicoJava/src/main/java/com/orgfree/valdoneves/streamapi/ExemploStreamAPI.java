@@ -23,6 +23,8 @@ public class ExemploStreamAPI {
         //retorna a contagem de elementos
         System.out.println("contagem: " + estudantes.stream().count() +"\n");
 
+
+
         //retorna o maior valor em relação a quantidade de caracteres de uma string
         System.out.println("Maior numero de letras: "+ estudantes.stream().max(Comparator.comparingInt(String::length))
                 + "\n");
@@ -52,7 +54,7 @@ public class ExemploStreamAPI {
         System.out.println("Retorna os elementos: "+ estudantes.stream().peek(System.out::println).collect(Collectors.toList()));
 
         System.out.println("ForEach: ");
-        
+
         estudantes.stream().forEach(System.out::println);
     }
 }
