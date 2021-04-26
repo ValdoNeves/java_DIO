@@ -60,3 +60,6 @@ com/orgfree/valdoneves/fatorialRecursivo/FatorialRecursivo.java
  com.orgfree.valdoneves.fatorialRecursivo.FatorialRecursivo
 com/orgfree/valdoneves/fatorialRecursivo/FatorialTailCall.java
  com.orgfree.valdoneves.fatorialRecursivo.FatorialTailCall
+FuncaoDeAltaOrdem/funcaoAltaOrdem.java
+ FuncaoDeAltaOrdem.Calculo
+ FuncaoDeAltaOrdem.funcaoAltaOrdem
