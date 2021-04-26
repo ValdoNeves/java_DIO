@@ -5,65 +5,70 @@ com/orgfree/valdoneves/classes/Programa.java
  com.orgfree.valdoneves.classes.Programa
 com/orgfree/valdoneves/list/ExemploList.java
  com.orgfree.valdoneves.list.ExemploList
-com/orgfree/valdoneves/list/ExemploVector.java
- com.orgfree.valdoneves.list.ExemploVector
+FuncaoDeAltaOrdem/Funcoes.java
+ FuncaoDeAltaOrdem.Funcoes
 com/orgfree/valdoneves/strings/Strings.java
  com.orgfree.valdoneves.strings.Strings
+com/orgfree/valdoneves/fatorialRecursivo/FuncoesPuras.java
+ com.orgfree.valdoneves.fatorialRecursivo.FuncoesPuras
 com/orgfree/valdoneves/orientacaoAObjeto/testeCarros.java
  com.orgfree.valdoneves.orientacaoAObjeto.testeCarros
+FuncaoDeAltaOrdem/funcaoAltaOrdem.java
+ FuncaoDeAltaOrdem.Calculo
+ FuncaoDeAltaOrdem.funcaoAltaOrdem
 com/orgfree/valdoneves/tipos/primitivos/Primitivos.java
  com.orgfree.valdoneves.tipos.primitivos.Primitivos
-com/orgfree/valdoneves/tipos/wrappers/Wrappers.java
- com.orgfree.valdoneves.tipos.wrappers.Wrappers
 com/orgfree/valdoneves/comparator/ExemploComparators.java
  com.orgfree.valdoneves.comparator.ExemploComparators
-com/orgfree/valdoneves/comparator/Estudantes.java
- com.orgfree.valdoneves.comparator.Estudantes
-com/orgfree/valdoneves/queue/ExemploLinkedList.java
- com.orgfree.valdoneves.queue.ExemploLinkedList
+com/orgfree/valdoneves/optional/ExemploOptionalEstados.java
+ com.orgfree.valdoneves.optional.ExemploOptionalEstados
 com/orgfree/valdoneves/set/ExemploTreeSet.java
  com.orgfree.valdoneves.set.ExemploTreeSet
+FuncaoDeAltaOrdem/Supridores.java
+ FuncaoDeAltaOrdem.Pessoa
+ FuncaoDeAltaOrdem.Supridores
 com/orgfree/valdoneves/set/ExemploHashSet.java
  com.orgfree.valdoneves.set.ExemploHashSet
+com/orgfree/valdoneves/lambdas/FuncoesAnonimas.java
+ com.orgfree.valdoneves.lambdas.Funcao
+ com.orgfree.valdoneves.lambdas.FuncoesAnonimas
+ com.orgfree.valdoneves.lambdas.FuncoesAnonimas$1
+com/orgfree/valdoneves/fatorialRecursivo/ParadigmaFuncional.java
+ com.orgfree.valdoneves.fatorialRecursivo.ParadigmaFuncional
+com/orgfree/valdoneves/dates/Datas.java
+ com.orgfree.valdoneves.dates.Datas
+com/orgfree/valdoneves/queue/ExemploLinkedList.java
+ com.orgfree.valdoneves.queue.ExemploLinkedList
+FuncaoDeAltaOrdem/Predicados.java
+ FuncaoDeAltaOrdem.Predicados
+com/orgfree/valdoneves/fatorialRecursivo/FatorialRecursivo.java
+ com.orgfree.valdoneves.fatorialRecursivo.FatorialRecursivo
+com/orgfree/valdoneves/list/ExemploVector.java
+ com.orgfree.valdoneves.list.ExemploVector
+FuncaoDeAltaOrdem/Consumidores.java
+ FuncaoDeAltaOrdem.Consumidores
+com/orgfree/valdoneves/tipos/wrappers/Wrappers.java
+ com.orgfree.valdoneves.tipos.wrappers.Wrappers
+com/orgfree/valdoneves/fatorialRecursivo/FatorialTailCall.java
+ com.orgfree.valdoneves.fatorialRecursivo.FatorialTailCall
+com/orgfree/valdoneves/comparator/Estudantes.java
+ com.orgfree.valdoneves.comparator.Estudantes
+com/orgfree/valdoneves/fatorialRecursivo/ComposicaoDeFuncoes.java
+ com.orgfree.valdoneves.fatorialRecursivo.ComposicaoDeFuncoes
+com/orgfree/valdoneves/streamapi/ExemploStreamAPI.java
+ com.orgfree.valdoneves.streamapi.ExemploStreamAPI
+com/orgfree/valdoneves/fatorialRecursivo/Imutabilidade.java
+ com.orgfree.valdoneves.fatorialRecursivo.Imutabilidade
 com/orgfree/valdoneves/optional/ExemploOptional.java
  com.orgfree.valdoneves.optional.ExemploOptional
 com/orgfree/valdoneves/comparator/EstudanteOrdemIdadeReversaComparator.java
  com.orgfree.valdoneves.comparator.EstudanteOrdemIdadeReversaComparator
-com/orgfree/valdoneves/dates/Datas.java
- com.orgfree.valdoneves.dates.Datas
 com/orgfree/valdoneves/map/ExemploHashMap.java
  com.orgfree.valdoneves.map.ExemploHashMap
 com/orgfree/valdoneves/optional/ExemploOptionalPrimitivos.java
  com.orgfree.valdoneves.optional.ExemploOptionalPrimitivos
 com/orgfree/valdoneves/orientacaoAObjeto/Carro.java
  com.orgfree.valdoneves.orientacaoAObjeto.Carro
-com/orgfree/valdoneves/optional/ExemploOptionalEstados.java
- com.orgfree.valdoneves.optional.ExemploOptionalEstados
-com/orgfree/valdoneves/streamapi/ExemploStreamAPI.java
- com.orgfree.valdoneves.streamapi.ExemploStreamAPI
-com/orgfree/valdoneves/fatorialRecursivo/ParadigmaFuncional.java
- com.orgfree.valdoneves.fatorialRecursivo.ParadigmaFuncional
-com/orgfree/valdoneves/fatorialRecursivo/FuncoesPuras.java
- com.orgfree.valdoneves.fatorialRecursivo.FuncoesPuras
-com/orgfree/valdoneves/fatorialRecursivo/ComposicaoDeFuncoes.java
- com.orgfree.valdoneves.fatorialRecursivo.ComposicaoDeFuncoes
-com/orgfree/valdoneves/fatorialRecursivo/Imutabilidade.java
- com.orgfree.valdoneves.fatorialRecursivo.Imutabilidade
 com/orgfree/valdoneves/lambdas/FuncoesLambdas.java
  com.orgfree.valdoneves.lambdas.FuncaoUm
  com.orgfree.valdoneves.lambdas.FuncoesLambdas
-com/orgfree/valdoneves/lambdas/FuncoesAnonimas.java
- com.orgfree.valdoneves.lambdas.Funcao
- com.orgfree.valdoneves.lambdas.FuncoesAnonimas
- com.orgfree.valdoneves.lambdas.FuncoesAnonimas$1
-com/orgfree/valdoneves/fatorialRecursivo/FatorialRecursivo.java
- com.orgfree.valdoneves.fatorialRecursivo.FatorialRecursivo
-com/orgfree/valdoneves/fatorialRecursivo/FatorialTailCall.java
- com.orgfree.valdoneves.fatorialRecursivo.FatorialTailCall
-FuncaoDeAltaOrdem/funcaoAltaOrdem.java
- FuncaoDeAltaOrdem.Calculo
- FuncaoDeAltaOrdem.funcaoAltaOrdem
-FuncaoDeAltaOrdem/Consumidores.java
- FuncaoDeAltaOrdem.Consumidores
-FuncaoDeAltaOrdem/Funcoes.java
- FuncaoDeAltaOrdem.Funcoes
