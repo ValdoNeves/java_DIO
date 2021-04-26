@@ -6,9 +6,9 @@
 - [x] Basic Java / Java Básico
 - [x] Programming with Java / Programando com Java
 - [x] Collection e Streams
-- [ ] Fundamentals of Arithmetic / Fundamentos Aritméticos 
+- [x] Fundamentals of Arithmetic / Fundamentos Aritméticos 
 - [ ] advancing with Java / Avançando com java
-- [ ] Linux
+- [x] Linux
 - [ ] Java Filters / Filtros em Java
 - [ ] Introduction to the framework Spring Boot / Introdução ao Framework Spring Boot
 - [ ] Advanced Systems Architecture / Arquitetura de Sistemas Avançados
