@@ -1,22 +1,55 @@
 package ThreadsTestes;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
+import java.util.stream.Collectors;
 
 public class FutureExemplo {
 
     private static final ExecutorService pessoasParaExecutarAtividades = Executors.newFixedThreadPool(3);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Casa casa = new Casa(new Quarto());
-        casa.obterAfazeresDeCasa().forEach(atividade -> pessoasParaExecutarAtividades.execute(() -> atividade.realizar()));
+
+        //Erro não restreavel nesse metodo inteiro
+//        List<? extends Future<String>> futuros =
+//                new CopyOnWriteArrayList<?>(casa.obterAfazeresDeCasa().stream()
+//            .map(atividade -> pessoasParaExecutarAtividades.submit(() -> {
+//                try{
+//                    return atividade.realizar();
+//                }catch (InterruptedException e){
+//                    e.printStackTrace();
+//                }
+//                return null;
+//                    }
+//
+//            )).collect(Collectors.toList()));
+
+
+        while (!futuros.stream().allMatch(Future::isDone)){
+            int numeroDeAtividadesNaoFinalizadas = 0;
+            for(Future<?> futuro : futuros){
+                if(futuro.isDone()){
+                    try{
+                        System.out.println("Parabens você terminou de " + futuro.get());
+                        futuros.remove(futuro);
+                    } catch (ExecutionException e) {
+                        e.printStackTrace();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }else{
+                    numeroDeAtividadesNaoFinalizadas++;
+                }
+            }
+            System.out.println("Numero de atividades não finalizadas ::"+numeroDeAtividadesNaoFinalizadas);
+            Thread.sleep(500);
+        }
+
+
         pessoasParaExecutarAtividades.shutdown();
-
-
     }
 
 }
@@ -38,7 +71,7 @@ class Casa{
 }
 
 interface Atividade{
-    void realizar();
+    void realizar() throws InterruptedException;
 }
 
 abstract class Comodo{
@@ -55,13 +88,22 @@ class Quarto extends Comodo{
                 this::arrumarGuardaRoupa
         );
     }
-    private void arrumarGuardaRoupa(){
-        System.out.println("Arrumar o guarda roupa");
+    private String arrumarGuardaRoupa() throws InterruptedException {
+        Thread.sleep(5000);
+        String arrumarRoupas = "Arrumar o guarda roupa";
+        System.out.println(arrumarRoupas);
+        return arrumarRoupas;
     }
-    private void varrerOQuarto(){
-        System.out.println("varrer o quarto");
+    private String varrerOQuarto() throws InterruptedException {
+        Thread.sleep(5000);
+        String varrer = "Varrer o quarto";
+        System.out.println(varrer);
+        return varrer;
     }
-    private void getArrumarACama(){
-        System.out.println("Arrumar a cama");
+    private String getArrumarACama() throws InterruptedException {
+        Thread.sleep(5000);
+        String arrumarCama = "Arrumar a cama";
+        System.out.println(arrumarCama);
+        return arrumarCama;
     }
 }
