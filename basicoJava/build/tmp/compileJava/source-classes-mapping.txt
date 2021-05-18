@@ -12,6 +12,9 @@ com/orgfree/valdoneves/strings/Strings.java
 com/orgfree/valdoneves/lambdas/FuncoesLambdas.java
  com.orgfree.valdoneves.lambdas.FuncaoUm
  com.orgfree.valdoneves.lambdas.FuncoesLambdas
+java10/InferenciaExemplo.java
+ java10.InferenciaExemplo
+ java10.InferenciaExemplo$1
 com/orgfree/valdoneves/fatorialRecursivo/FuncoesPuras.java
  com.orgfree.valdoneves.fatorialRecursivo.FuncoesPuras
 com/orgfree/valdoneves/orientacaoAObjeto/testeCarros.java
@@ -86,6 +89,5 @@ com/orgfree/valdoneves/optional/ExemploOptionalPrimitivos.java
  com.orgfree.valdoneves.optional.ExemploOptionalPrimitivos
 com/orgfree/valdoneves/orientacaoAObjeto/Carro.java
  com.orgfree.valdoneves.orientacaoAObjeto.Carro
-java10/InferenciaExemplo.java
- java10.InferenciaExemplo
- java10.InferenciaExemplo$1
+desafios/orientacaoEFiltros/desafioUm.java
+ desafios.orientacaoEFiltros.desafioUm
