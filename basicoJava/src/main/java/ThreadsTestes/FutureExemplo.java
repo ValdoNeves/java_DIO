@@ -28,25 +28,25 @@ public class FutureExemplo {
 //            )).collect(Collectors.toList()));
 
 
-        while (!futuros.stream().allMatch(Future::isDone)){
-            int numeroDeAtividadesNaoFinalizadas = 0;
-            for(Future<?> futuro : futuros){
-                if(futuro.isDone()){
-                    try{
-                        System.out.println("Parabens você terminou de " + futuro.get());
-                        futuros.remove(futuro);
-                    } catch (ExecutionException e) {
-                        e.printStackTrace();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }else{
-                    numeroDeAtividadesNaoFinalizadas++;
-                }
-            }
-            System.out.println("Numero de atividades não finalizadas ::"+numeroDeAtividadesNaoFinalizadas);
-            Thread.sleep(500);
-        }
+//        while (!futuros.stream().allMatch(Future::isDone)){
+//            int numeroDeAtividadesNaoFinalizadas = 0;
+//            for(Future<?> futuro : futuros){
+//                if(futuro.isDone()){
+//                    try{
+//                        System.out.println("Parabens você terminou de " + futuro.get());
+//                        futuros.remove(futuro);
+//                    } catch (ExecutionException e) {
+//                        e.printStackTrace();
+//                    } catch (InterruptedException e) {
+//                        e.printStackTrace();
+//                    }
+//                }else{
+//                    numeroDeAtividadesNaoFinalizadas++;
+//                }
+//            }
+//            System.out.println("Numero de atividades não finalizadas ::"+numeroDeAtividadesNaoFinalizadas);
+//            Thread.sleep(500);
+//        }
 
 
         pessoasParaExecutarAtividades.shutdown();

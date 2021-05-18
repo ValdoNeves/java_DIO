@@ -9,6 +9,9 @@ FuncaoDeAltaOrdem/Funcoes.java
  FuncaoDeAltaOrdem.Funcoes
 com/orgfree/valdoneves/strings/Strings.java
  com.orgfree.valdoneves.strings.Strings
+com/orgfree/valdoneves/lambdas/FuncoesLambdas.java
+ com.orgfree.valdoneves.lambdas.FuncaoUm
+ com.orgfree.valdoneves.lambdas.FuncoesLambdas
 com/orgfree/valdoneves/fatorialRecursivo/FuncoesPuras.java
  com.orgfree.valdoneves.fatorialRecursivo.FuncoesPuras
 com/orgfree/valdoneves/orientacaoAObjeto/testeCarros.java
@@ -24,9 +27,17 @@ com/orgfree/valdoneves/optional/ExemploOptionalEstados.java
  com.orgfree.valdoneves.optional.ExemploOptionalEstados
 com/orgfree/valdoneves/set/ExemploTreeSet.java
  com.orgfree.valdoneves.set.ExemploTreeSet
+ThreadsTestes/PararelStreamExemplo.java
+ ThreadsTestes.PararelStreamExemplo
 FuncaoDeAltaOrdem/Supridores.java
  FuncaoDeAltaOrdem.Pessoa
  FuncaoDeAltaOrdem.Supridores
+ThreadsTestes/FutureExemplo.java
+ ThreadsTestes.Atividade
+ ThreadsTestes.Casa
+ ThreadsTestes.Comodo
+ ThreadsTestes.FutureExemplo
+ ThreadsTestes.Quarto
 com/orgfree/valdoneves/set/ExemploHashSet.java
  com.orgfree.valdoneves.set.ExemploHashSet
 com/orgfree/valdoneves/lambdas/FuncoesAnonimas.java
@@ -41,6 +52,10 @@ com/orgfree/valdoneves/dates/Datas.java
  com.orgfree.valdoneves.dates.Datas
 com/orgfree/valdoneves/queue/ExemploLinkedList.java
  com.orgfree.valdoneves.queue.ExemploLinkedList
+ThreadsTestes/ThreadExemplo.java
+ ThreadsTestes.BarraDeCarregamento
+ ThreadsTestes.GeradorPDF
+ ThreadsTestes.ThreadExemplo
 FuncaoDeAltaOrdem/Predicados.java
  FuncaoDeAltaOrdem.Predicados
 com/orgfree/valdoneves/fatorialRecursivo/FatorialRecursivo.java
@@ -71,6 +86,6 @@ com/orgfree/valdoneves/optional/ExemploOptionalPrimitivos.java
  com.orgfree.valdoneves.optional.ExemploOptionalPrimitivos
 com/orgfree/valdoneves/orientacaoAObjeto/Carro.java
  com.orgfree.valdoneves.orientacaoAObjeto.Carro
-com/orgfree/valdoneves/lambdas/FuncoesLambdas.java
- com.orgfree.valdoneves.lambdas.FuncaoUm
- com.orgfree.valdoneves.lambdas.FuncoesLambdas
+java10/InferenciaExemplo.java
+ java10.InferenciaExemplo
+ java10.InferenciaExemplo$1

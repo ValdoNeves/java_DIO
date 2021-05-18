@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java.avancado.core/java.avancado.core.iml" filepath="$PROJECT_DIR$/java.avancado.core/java.avancado.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.avancado.main/java.avancado.main.iml" filepath="$PROJECT_DIR$/java.avancado.main/java.avancado.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.avancado.utils/java.avancado.utils.iml" filepath="$PROJECT_DIR$/java.avancado.utils/java.avancado.utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.avancado.main/java.vancado.utils.iml" filepath="$PROJECT_DIR$/java.avancado.main/java.vancado.utils.iml" />
+    </modules>
+  </component>
+</project>
