@@ -60,6 +60,9 @@ FuncaoDeAltaOrdem/Predicados.java
  FuncaoDeAltaOrdem.Predicados
 com/orgfree/valdoneves/fatorialRecursivo/FatorialRecursivo.java
  com.orgfree.valdoneves.fatorialRecursivo.FatorialRecursivo
+com/orgfree/valdoneves/lambdas/FuncoesLambdas.java
+ com.orgfree.valdoneves.lambdas.FuncaoUm
+ com.orgfree.valdoneves.lambdas.FuncoesLambdas
 com/orgfree/valdoneves/list/ExemploVector.java
  com.orgfree.valdoneves.list.ExemploVector
 FuncaoDeAltaOrdem/Consumidores.java
@@ -80,9 +83,8 @@ com/orgfree/valdoneves/fatorialRecursivo/Imutabilidade.java
  com.orgfree.valdoneves.fatorialRecursivo.Imutabilidade
 com/orgfree/valdoneves/optional/ExemploOptional.java
  com.orgfree.valdoneves.optional.ExemploOptional
-com/orgfree/valdoneves/lambdas/FuncoesLambdas.java
- com.orgfree.valdoneves.lambdas.FuncaoUm
- com.orgfree.valdoneves.lambdas.FuncoesLambdas
+desafios/javaDeveloper/orientacaoEFiltros/desafioDois.java
+ desafios.javaDeveloper.orientacaoEFiltros.desafioDois
 com/orgfree/valdoneves/comparator/EstudanteOrdemIdadeReversaComparator.java
  com.orgfree.valdoneves.comparator.EstudanteOrdemIdadeReversaComparator
 com/orgfree/valdoneves/map/ExemploHashMap.java
@@ -91,5 +93,5 @@ com/orgfree/valdoneves/optional/ExemploOptionalPrimitivos.java
  com.orgfree.valdoneves.optional.ExemploOptionalPrimitivos
 com/orgfree/valdoneves/orientacaoAObjeto/Carro.java
  com.orgfree.valdoneves.orientacaoAObjeto.Carro
-desafios/javaDeveloper/orientacaoEFiltros/desafioDois.java
- desafios.javaDeveloper.orientacaoEFiltros.desafioDois
+desafios/javaDeveloper/orientacaoEFiltros/DesafioTres.java
+ desafios.javaDeveloper.orientacaoEFiltros.DesafioTres
