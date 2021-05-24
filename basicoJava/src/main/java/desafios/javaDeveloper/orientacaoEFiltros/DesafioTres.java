@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static java.lang.Integer.compare;
 import static java.lang.Integer.parseInt;
@@ -41,38 +42,72 @@ public class DesafioTres {
                 nomes.add(arquivoCompleto.get(i));
             }
         }
-        nomes.stream().sorted(Comparator.naturalOrder()).collect(Collectors.toList());
+        nomes.stream().sorted().collect(Collectors.toList());
         for(var i = 2; i <= (numero*2); i = i+2){
 
             if(arquivoCompleto.get(i) != String.valueOf(ultimo)){
 
-                segundaLinha = Arrays.stream(arquivoCompleto.get(i).split(" ")).collect(Collectors.toList());
+                segundaLinha.add(arquivoCompleto.get(i));
 
-                for(var x = 0; x < segundaLinha.size(); x++){
-                    if(x % 2 == 0){
-                        cores.add(segundaLinha.get(x));
-                    }else {
-                        tamanos.add(segundaLinha.get(x));
-                    }
+//                segundaLinha = Arrays.stream(arquivoCompleto.get(i).split(" ")).collect(Collectors.toList());
 
-                }
+//                for(var x = 0; x < segundaLinha.size(); x++){
+//                    if(x % 2 == 0){
+//                        cores.add(segundaLinha.get(x));
+//                    }else {
+//                        tamanos.add(segundaLinha.get(x));
+//                    }
+
+//                }
             }
+
+
+
         }
-        segundaLinha.stream().sorted(Comparator.naturalOrder()).collect(Collectors.toList());
+
+
+        System.out.println(nomes);
+        System.out.println(segundaLinha);
+
+        List<String> unicaLinha = new ArrayList<>();
+//        Stream.concat(segundaLinha.stream().toString() + nomes.get()).collect(Collectors.toList());
+
+        for(var i = 0; i < numero; i++){
+            unicaLinha.add(segundaLinha.get(i) +" "+ nomes.get(i));
+        }
+//        Stream<String> ordenadas = unicaLinha.stream().sorted();
+        System.out.println("adicionei agora " + unicaLinha);
+        System.out.println("ordenada:" +unicaLinha.stream().sorted().collect(Collectors.toList()));
+
+
+
+
+//        segundaLinha.stream().sorted(Comparator.naturalOrder()).collect(Collectors.toList());
+//        List<String> pegandoNomes = nomes.stream().collect(Collectors.toList());
+//        pegandoNomes.sort(Comparator.naturalOrder());
+
 
 //        cores.stream().sorted(Comparator.naturalOrder());
 //        tamanos.stream().sorted(Comparator.reverseOrder());
 //        String nome = String.valueOf(nomes.stream().sorted(Comparator.naturalOrder()));
 
         for(var i = 0; i < numero; i++) {
-            if(cores.get(i).equals("branco")){
-                System.out.println(cores.get(i) + " "+ tamanos.get(i)+" "+ nomes.get(i));
+//            if(cores.get(i).equals("branco")){
+//                System.out.println(cores.get(i) + " "+ tamanos.get(i)+" "+ pegandoNomes.get(i));
+//            }
+            if(unicaLinha.get(i).startsWith("branco") && !unicaLinha.stream().sorted().collect(Collectors.toList()).isEmpty()){
+//                if(unicaLinha.stream().allMatch(s)) {
+                    System.out.println(unicaLinha.get(i));
+//                }
             }
 
         }
         for(var i = 0; i < numero; i++) {
-            if (cores.get(i).equals("vermelho")) {
-                System.out.println(cores.get(i) + " " + tamanos.get(i) + " " + nomes.get(i));
+//            if (cores.get(i).equals("vermelho")) {
+//                System.out.println(cores.get(i) + " " + tamanos.get(i) + " " + pegandoNomes.get(i));
+//            }
+            if(unicaLinha.get(i).startsWith("vermelho")){
+                System.out.println(unicaLinha.get(i));
             }
         }
 
@@ -83,5 +118,8 @@ public class DesafioTres {
 //            //imprime string de listas
 //            System.out.println(lista.replace(",", "").replace("[", "").replace("]", ""));
 //        }
+
+
+
     }
 }

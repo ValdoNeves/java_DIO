@@ -10,7 +10,7 @@
 - [x] advancing with Java / Avançando com java
 - [x] Linux
 - [ ] Java Filters / Filtros em Java
-- [ ] Introduction to the framework Spring Boot / Introdução ao Framework Spring Boot
+- [x] Introduction to the framework Spring Boot / Introdução ao Framework Spring Boot
 - [ ] Advanced Systems Architecture / Arquitetura de Sistemas Avançados
 - [ ] Introduction to Search and Replacement in Java / Introdução a Busca e Substituição em Java
 - [ ] Concepts and best practices with PostgreSQL database / Conceitos e melhores práticas com Banco de Dados PostgreSQL
