@@ -19,5 +19,5 @@ public class funcaoAltaOrdem {
 }
 
 interface Calculo{
-    public int calcular(int a , int b);
+    int calcular(int a, int b);
 }

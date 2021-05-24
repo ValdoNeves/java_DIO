@@ -16,8 +16,8 @@ public class Supridores {
 }
 
 class Pessoa{
-    private String nome;
-    private Integer idade;
+    private final String nome;
+    private final Integer idade;
 
     public Pessoa(){
         nome = "Eu";

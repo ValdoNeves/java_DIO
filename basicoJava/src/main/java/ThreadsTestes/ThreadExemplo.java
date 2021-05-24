@@ -38,7 +38,7 @@ class GeradorPDF extends Thread{
 class BarraDeCarregamento extends Thread{
 
 
-    private GeradorPDF iniciarGeradorPDF;
+    private final GeradorPDF iniciarGeradorPDF;
 
     public BarraDeCarregamento(GeradorPDF iniciarGeradorPDF) {
         this.iniciarGeradorPDF = iniciarGeradorPDF;

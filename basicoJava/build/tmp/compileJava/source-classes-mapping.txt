@@ -14,30 +14,24 @@ java10/InferenciaExemplo.java
  java10.InferenciaExemplo$1
 com/orgfree/valdoneves/fatorialRecursivo/FuncoesPuras.java
  com.orgfree.valdoneves.fatorialRecursivo.FuncoesPuras
-com/orgfree/valdoneves/orientacaoAObjeto/testeCarros.java
- com.orgfree.valdoneves.orientacaoAObjeto.testeCarros
-FuncaoDeAltaOrdem/funcaoAltaOrdem.java
- FuncaoDeAltaOrdem.Calculo
- FuncaoDeAltaOrdem.funcaoAltaOrdem
+com/orgfree/valdoneves/optional/ExemploOptionalPrimitivos.java
+ com.orgfree.valdoneves.optional.ExemploOptionalPrimitivos
+com/orgfree/valdoneves/map/ExemploHashMap.java
+ com.orgfree.valdoneves.map.ExemploHashMap
 com/orgfree/valdoneves/tipos/primitivos/Primitivos.java
  com.orgfree.valdoneves.tipos.primitivos.Primitivos
-com/orgfree/valdoneves/comparator/ExemploComparators.java
- com.orgfree.valdoneves.comparator.ExemploComparators
+com/orgfree/valdoneves/streamapi/ExemploStreamAPI.java
+ com.orgfree.valdoneves.streamapi.ExemploStreamAPI
 com/orgfree/valdoneves/optional/ExemploOptionalEstados.java
  com.orgfree.valdoneves.optional.ExemploOptionalEstados
 com/orgfree/valdoneves/set/ExemploTreeSet.java
  com.orgfree.valdoneves.set.ExemploTreeSet
 ThreadsTestes/PararelStreamExemplo.java
  ThreadsTestes.PararelStreamExemplo
-FuncaoDeAltaOrdem/Supridores.java
- FuncaoDeAltaOrdem.Pessoa
- FuncaoDeAltaOrdem.Supridores
-ThreadsTestes/FutureExemplo.java
- ThreadsTestes.Atividade
- ThreadsTestes.Casa
- ThreadsTestes.Comodo
- ThreadsTestes.FutureExemplo
- ThreadsTestes.Quarto
+desafios/javaDeveloper/orientacaoEFiltros/DesafioTres.java
+ desafios.javaDeveloper.orientacaoEFiltros.DesafioTres
+com/orgfree/valdoneves/optional/ExemploOptional.java
+ com.orgfree.valdoneves.optional.ExemploOptional
 com/orgfree/valdoneves/set/ExemploHashSet.java
  com.orgfree.valdoneves.set.ExemploHashSet
 com/orgfree/valdoneves/lambdas/FuncoesAnonimas.java
@@ -48,14 +42,12 @@ FuncaoDeAltaOrdem/Iteracoes.java
  FuncaoDeAltaOrdem.Iteracoes
 com/orgfree/valdoneves/fatorialRecursivo/ParadigmaFuncional.java
  com.orgfree.valdoneves.fatorialRecursivo.ParadigmaFuncional
-com/orgfree/valdoneves/dates/Datas.java
- com.orgfree.valdoneves.dates.Datas
+desafios/javaDeveloper/orientacaoEFiltros/desafioDois.java
+ desafios.javaDeveloper.orientacaoEFiltros.desafioDois
 com/orgfree/valdoneves/queue/ExemploLinkedList.java
  com.orgfree.valdoneves.queue.ExemploLinkedList
-ThreadsTestes/ThreadExemplo.java
- ThreadsTestes.BarraDeCarregamento
- ThreadsTestes.GeradorPDF
- ThreadsTestes.ThreadExemplo
+com/orgfree/valdoneves/fatorialRecursivo/Imutabilidade.java
+ com.orgfree.valdoneves.fatorialRecursivo.Imutabilidade
 FuncaoDeAltaOrdem/Predicados.java
  FuncaoDeAltaOrdem.Predicados
 com/orgfree/valdoneves/fatorialRecursivo/FatorialRecursivo.java
@@ -71,27 +63,45 @@ com/orgfree/valdoneves/tipos/wrappers/Wrappers.java
  com.orgfree.valdoneves.tipos.wrappers.Wrappers
 com/orgfree/valdoneves/fatorialRecursivo/FatorialTailCall.java
  com.orgfree.valdoneves.fatorialRecursivo.FatorialTailCall
-com/orgfree/valdoneves/comparator/Estudantes.java
- com.orgfree.valdoneves.comparator.Estudantes
-com/orgfree/valdoneves/fatorialRecursivo/ComposicaoDeFuncoes.java
- com.orgfree.valdoneves.fatorialRecursivo.ComposicaoDeFuncoes
 desafios/javaDeveloper/orientacaoEFiltros/desafioUm.java
  desafios.javaDeveloper.orientacaoEFiltros.desafioUm
-com/orgfree/valdoneves/streamapi/ExemploStreamAPI.java
- com.orgfree.valdoneves.streamapi.ExemploStreamAPI
-com/orgfree/valdoneves/fatorialRecursivo/Imutabilidade.java
- com.orgfree.valdoneves.fatorialRecursivo.Imutabilidade
-com/orgfree/valdoneves/optional/ExemploOptional.java
- com.orgfree.valdoneves.optional.ExemploOptional
-desafios/javaDeveloper/orientacaoEFiltros/desafioDois.java
- desafios.javaDeveloper.orientacaoEFiltros.desafioDois
+com/orgfree/valdoneves/fatorialRecursivo/ComposicaoDeFuncoes.java
+ com.orgfree.valdoneves.fatorialRecursivo.ComposicaoDeFuncoes
+FuncaoDeAltaOrdem/Supridores.java
+ FuncaoDeAltaOrdem.Pessoa
+ FuncaoDeAltaOrdem.Supridores
+ThreadsTestes/FutureExemplo.java
+ ThreadsTestes.Atividade
+ ThreadsTestes.Casa
+ ThreadsTestes.Comodo
+ ThreadsTestes.FutureExemplo
+ ThreadsTestes.Quarto
+com/orgfree/valdoneves/comparator/Estudantes.java
+ com.orgfree.valdoneves.comparator.Estudantes
+com/orgfree/valdoneves/orientacaoAObjeto/testeCarros.java
+ com.orgfree.valdoneves.orientacaoAObjeto.testeCarros
+FuncaoDeAltaOrdem/funcaoAltaOrdem.java
+ FuncaoDeAltaOrdem.Calculo
+ FuncaoDeAltaOrdem.funcaoAltaOrdem
 com/orgfree/valdoneves/comparator/EstudanteOrdemIdadeReversaComparator.java
  com.orgfree.valdoneves.comparator.EstudanteOrdemIdadeReversaComparator
-com/orgfree/valdoneves/map/ExemploHashMap.java
- com.orgfree.valdoneves.map.ExemploHashMap
-com/orgfree/valdoneves/optional/ExemploOptionalPrimitivos.java
- com.orgfree.valdoneves.optional.ExemploOptionalPrimitivos
+com/orgfree/valdoneves/dates/Datas.java
+ com.orgfree.valdoneves.dates.Datas
 com/orgfree/valdoneves/orientacaoAObjeto/Carro.java
  com.orgfree.valdoneves.orientacaoAObjeto.Carro
-desafios/javaDeveloper/orientacaoEFiltros/DesafioTres.java
- desafios.javaDeveloper.orientacaoEFiltros.DesafioTres
+ThreadsTestes/ThreadExemplo.java
+ ThreadsTestes.BarraDeCarregamento
+ ThreadsTestes.GeradorPDF
+ ThreadsTestes.ThreadExemplo
+com/orgfree/valdoneves/comparator/ExemploComparators.java
+ com.orgfree.valdoneves.comparator.ExemploComparators
+jdbc_e_jpa/ConnectionFactory.java
+ jdbc_e_jpa.ConnectionFactory
+jdbc_e_jpa/ConnectionJDBC.java
+ jdbc_e_jpa.ConnectionJDBC
+jdbc_e_jpa/Aluno.java
+ jdbc_e_jpa.Aluno
+jdbc_e_jpa/AlunoDAO.java
+ jdbc_e_jpa.AlunoDAO
+jdbc_e_jpa/QueriesExecution.java
+ jdbc_e_jpa.QueriesExecution

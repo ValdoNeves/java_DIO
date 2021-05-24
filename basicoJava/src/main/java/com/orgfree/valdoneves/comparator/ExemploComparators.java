@@ -21,37 +21,37 @@ public class ExemploComparators {
 
         System.out.println("---Ordem de Inserção---");
         System.out.println(estudantes);
-        System.out.println("");
+        System.out.println();
 
         estudantes.sort((first, second) -> first.getIdade() - second.getIdade());
         System.out.println("---Ordem natural dos números - idade---");
         System.out.println(estudantes);
-        System.out.println("");
+        System.out.println();
 
         estudantes.sort((first, second) -> second.getIdade() - first.getIdade());
         System.out.println("---Ordem reversa dos números - idade---");
         System.out.println(estudantes);
-        System.out.println("");
+        System.out.println();
 
         estudantes.sort(Comparator.comparingInt(Estudantes::getIdade));
         System.out.println("---Ordem natural dos números - idade (metodo reference)---");
         System.out.println(estudantes);
-        System.out.println("");
+        System.out.println();
 
         estudantes.sort(Comparator.comparingInt(Estudantes::getIdade).reversed());
         System.out.println("---Ordem reversa dos números - idade (metodo reference)---");
         System.out.println(estudantes);
-        System.out.println("");
+        System.out.println();
 
         Collections.sort(estudantes);
         System.out.println("---Order natural dos números - idade (interface Comparable)---");
         System.out.println(estudantes);
-        System.out.println("");
+        System.out.println();
 
         Collections.sort(estudantes, new EstudanteOrdemIdadeReversaComparator());
         System.out.println("---Ordem reversa dos números - idade (interface Comparable)---");
         System.out.println(estudantes);
-        System.out.println("");
+        System.out.println();
 
     }
 }

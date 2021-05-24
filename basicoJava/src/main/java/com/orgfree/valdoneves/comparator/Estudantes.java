@@ -2,8 +2,8 @@ package com.orgfree.valdoneves.comparator;
 
 public class Estudantes implements Comparable<Estudantes>{
 
-    private String nome;
-    private int idade;
+    private final String nome;
+    private final int idade;
 
     public Estudantes(String nome, int idade){
         this.nome = nome;

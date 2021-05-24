@@ -55,7 +55,7 @@ public class FutureExemplo {
 }
 
 class Casa{
-    private List<Comodo> comodos;
+    private final List<Comodo> comodos;
 
     Casa(Comodo... comodos){
         this.comodos = Arrays.asList(comodos);

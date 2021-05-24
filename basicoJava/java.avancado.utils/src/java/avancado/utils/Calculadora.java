@@ -7,10 +7,10 @@ import java.avancado.utils.internal.SubHelper;
 
 public class Calculadora {
 
-    private DivHelper divHelper;
-    private MultHelper multHelper;
-    private SomaHelper somaHelper;
-    private SubHelper subHelper;
+    private final DivHelper divHelper;
+    private final MultHelper multHelper;
+    private final SomaHelper somaHelper;
+    private final SubHelper subHelper;
 
     public Calculadora(){
         divHelper = new DivHelper();

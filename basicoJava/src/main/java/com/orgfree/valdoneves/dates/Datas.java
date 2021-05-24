@@ -10,7 +10,7 @@ public class Datas {
         //tempo atual
         Long currentTimeMillis = System.currentTimeMillis();
         //tempo em um tipo de hash
-        System.out.println(currentTimeMillis);;
+        System.out.println(currentTimeMillis);
 
         //data formata
         Date novaData = new Date(currentTimeMillis);

@@ -3,9 +3,9 @@ package com.orgfree.valdoneves.orientacaoAObjeto;
 public class Carro {
 
     private int qtdPessoas;
-    private String marca;
-    private String modelo;
-    private int ano;
+    private final String marca;
+    private final String modelo;
+    private final int ano;
     private String variante;
 
     public Carro(String marca, String modelo, int ano){
