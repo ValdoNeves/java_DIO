@@ -1,26 +1,37 @@
 package jdbc_e_jpa;
 
+import javax.persistence.*;
+
+@Entity
 public class Aluno {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    @Column
     private String nome;
+    @Column
     private int idade;
-    private String estado;
 
-    public Aluno(int id, String nome, int idade, String estado){
-        this.id = id;
-        this.nome = nome;
-        this.idade = idade;
-        this.estado = estado;
-    }
-
-    public Aluno(String nome, int idade, String estado){
-        this.nome = nome;
-        this.idade = idade;
-        this.estado = estado;
-    }
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Estado estado;
 
     public Aluno(){}
+
+    public Aluno(String nome, int idade){
+
+        this.nome = nome;
+        this.idade = idade;
+
+    }
+
+    public Aluno(String nome, int idade, Estado estado){
+        this.nome = nome;
+        this.idade = idade;
+        this.estado = estado;
+    }
+
+
 
     public String getNome() {
         return nome;
@@ -34,7 +45,7 @@ public class Aluno {
         return idade;
     }
 
-    public String getEstado() {
+    public Estado getEstado() {
         return estado;
     }
 
@@ -50,7 +61,7 @@ public class Aluno {
         this.idade = idade;
     }
 
-    public void setEstado(String estado) {
+    public void setEstado(Estado estado) {
         this.estado = estado;
     }
 

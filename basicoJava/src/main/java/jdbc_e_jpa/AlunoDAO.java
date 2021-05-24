@@ -27,8 +27,15 @@ public class AlunoDAO {
 
             //enquanto tiver linhas continuar o while
             while(rs.next()){
-                Aluno aluno = new Aluno(rs.getInt("id"),rs.getString("nome"),rs.getInt("idade"),rs.getString("estado"));
-                alunos.add(aluno);
+                int id = rs.getInt("id");
+                String nome = rs.getString("nome");
+                int idade = rs.getInt("idade");
+//                Estado estado = rs.getString("estado");
+
+                alunos.add(new Aluno(nome, idade));
+
+
+
             }
 
         } catch (SQLException e) {
@@ -61,7 +68,7 @@ public class AlunoDAO {
                 aluno.setId(rs.getInt("id"));
                 aluno.setNome(rs.getString("nome"));
                 aluno.setIdade(rs.getInt("idade"));
-                aluno.setEstado(rs.getString("estado"));
+//                aluno.setEstado(rs.getObject("estado"));
             }
         } catch (SQLException throwables) {
             System.err.println("Erro na listagem!");
@@ -79,7 +86,7 @@ public class AlunoDAO {
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
             preparedStatement.setString(1,aluno.getNome());
             preparedStatement.setInt(2,aluno.getIdade());
-            preparedStatement.setString(3,aluno.getEstado());
+            preparedStatement.setString(3, String.valueOf(aluno.getEstado()));
 
             //armazenar a quantidade de linhas afetadas
             int linhasAfetadas = preparedStatement.executeUpdate();
@@ -111,7 +118,7 @@ public class AlunoDAO {
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setString(1, aluno.getNome());
             ps.setInt(2, aluno.getIdade());
-            ps.setString(3, aluno.getEstado());
+            ps.setString(3, String.valueOf(aluno.getEstado()));
             ps.setInt(4, aluno.getId());
 
             int rowAffected = ps.executeUpdate();
