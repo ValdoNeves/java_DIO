@@ -79,8 +79,8 @@ com/orgfree/valdoneves/lambdas/FuncoesAnonimas.java
  com.orgfree.valdoneves.lambdas.FuncoesAnonimas$1
 jdbc_e_jpa/Estado.java
  jdbc_e_jpa.Estado
-jdbc_e_jpa/ExecutandoJPA.java
- jdbc_e_jpa.ExecutandoJPA
+com/orgfree/valdoneves/orientacaoAObjeto/Carro.java
+ com.orgfree.valdoneves.orientacaoAObjeto.Carro
 com/orgfree/valdoneves/dates/Datas.java
  com.orgfree.valdoneves.dates.Datas
 com/orgfree/valdoneves/queue/ExemploLinkedList.java
@@ -107,5 +107,19 @@ com/orgfree/valdoneves/fatorialRecursivo/Imutabilidade.java
  com.orgfree.valdoneves.fatorialRecursivo.Imutabilidade
 com/orgfree/valdoneves/optional/ExemploOptionalPrimitivos.java
  com.orgfree.valdoneves.optional.ExemploOptionalPrimitivos
-com/orgfree/valdoneves/orientacaoAObjeto/Carro.java
- com.orgfree.valdoneves.orientacaoAObjeto.Carro
+jdbc_e_jpa/ExecutandoJPA.java
+ jdbc_e_jpa.ExecutandoJPA
+com/orgfree/valdoneves/jpa_e_jdbc/ConnectionFactory.java
+ com.orgfree.valdoneves.jpa_e_jdbc.ConnectionFactory
+com/orgfree/valdoneves/jpa_e_jdbc/Aluno.java
+ com.orgfree.valdoneves.jpa_e_jdbc.Aluno
+com/orgfree/valdoneves/jpa_e_jdbc/Estado.java
+ com.orgfree.valdoneves.jpa_e_jdbc.Estado
+com/orgfree/valdoneves/jpa_e_jdbc/AlunoDAO.java
+ com.orgfree.valdoneves.jpa_e_jdbc.AlunoDAO
+com/orgfree/valdoneves/jpa_e_jdbc/ConnectionJDBC.java
+ com.orgfree.valdoneves.jpa_e_jdbc.ConnectionJDBC
+com/orgfree/valdoneves/jpa_e_jdbc/ExecutandoJPA.java
+ com.orgfree.valdoneves.jpa_e_jdbc.ExecutandoJPA
+com/orgfree/valdoneves/jpa_e_jdbc/QueriesExecution.java
+ com.orgfree.valdoneves.jpa_e_jdbc.QueriesExecution

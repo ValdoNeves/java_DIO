@@ -1,5 +1,6 @@
 package jdbc_e_jpa;
 
+
 import javax.persistence.*;
 
 @Entity
@@ -8,8 +9,10 @@ public class Aluno {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
     @Column
     private String nome;
+
     @Column
     private int idade;
 
